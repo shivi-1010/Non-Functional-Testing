@@ -1,0 +1,6 @@
+echo .vagrant/ >> .gitignore
+echo __pycache__/ >> .gitignore
+echo .DS_Store >> .gitignore
+git add .gitignore
+git commit -m "add gitignore for vagrant and cache files"
+git push origin main
